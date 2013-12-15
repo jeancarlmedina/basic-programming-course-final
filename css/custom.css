@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+}
+#wrapper {
+	width: 950px;
+	background-color: white;
+	margin: auto;
+}
+#navigation {
+	width: 500px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+#navigation li{
+	display: inline;
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+#navigation li a {
+	text-decoration: none;
+	color: green;
+}
+
+
+#navigation li a:hover {
+	text-decoration: none;
+	color: blue;
+}
+
+#table {
+	width: 400px;
+	border: none;
+	margin: auto;
+}
+
+#table td{
+	text-align: center;
+}
