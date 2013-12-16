@@ -1,11 +1,15 @@
 <?php
-// Nos ta bai konekta na e database
-$dbConnection = mysqli_connect ("localhost","root","","easypetshop");
+//Akinan nos ta bai konekta ku e Database easypetshop
+$user="root";
+$password="";
+$host="localhost";
+$db="easypetshop";
 
-// Check si e database a wordu konekta
-if (mysqli_connect_errno())
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
+//Create connection
+$dbConnection =mysqli_connect($host, $user, $password, $db);
 
-  
+//Check connection
+if(mysqli_connect_errno()) {
+	die("error riba nos pagina ". mysqli_connect_error());
+}
+?>

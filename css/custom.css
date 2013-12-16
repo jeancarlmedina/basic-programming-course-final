@@ -1,19 +1,14 @@
 body {
-	background-color: black;
+	background-color:#222;
 }
+
 #wrapper {
 	width: 950px;
 	background-color: white;
 	margin: auto;
 }
-#navigation {
-	width: 500px;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
 
-}
-#navigation li{
+#navigation li {
 	display: inline;
 	margin-left: 15px;
 	font-size: 20px;
@@ -21,13 +16,12 @@ body {
 
 #navigation li a {
 	text-decoration: none;
-	color: green;
+	color:green;
 }
-
 
 #navigation li a:hover {
 	text-decoration: none;
-	color: blue;
+	color: #C0C0C0;
 }
 
 #table {
@@ -36,6 +30,100 @@ body {
 	margin: auto;
 }
 
-#table td{
+#footer {
+	font-family: verdana;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #C0C0C0;
+	text-align: center;
+	font-style: italic;
+}
+
+h2 {
+	font-weight: bold;
+	color: #808080;
+	font-size: 24px;
+	font-family: Arial;
 	text-align: center;
 }
+
+h3 {
+	font-weight: bold;
+	color: #808080;
+	font-size: 24px;
+	font-family: Arial;
+	text-align: center;
+}
+
+table {
+	font-size: 12px;
+	color: #333333;
+	font-family: verdana;
+
+}
+
+table th {
+	padding: 8px;
+	border-color: #666666;
+	background-color: #dedede;
+}
+
+table td {
+	padding: 8px;
+	border-color: #666666;
+	background-color: #ffffff;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+form {
+	border: solid 1px #ccc;
+	width: 400px;
+	margin:auto;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	border-radius: 13px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+}
+
+input {
+	width: 208px;
+	display: block;
+	border: 1px solid #999;
+	height: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+	padding-left: 12px;
+	border-radius: 8px;
+	margin-bottom: 2px;
+}
+
+textarea {
+	width: 208px;
+	display: block;
+	border: 1px solid #999;
+	font-family: Tahoma, Geneva, sans-serif;
+	height: 80px;
+	border-radius: 8px;
+	padding-left: 12px;
+	margin-bottom: 8px;
+}
+
+input[type="submit"] {
+	width: 208px;
+	margin-left: 80px;
+	height: 30px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.error {
+	font-size: 20px;
+	color: red;
+	font-family: verdana;
+}
+
+
